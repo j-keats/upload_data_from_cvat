@@ -1,0 +1,9 @@
+datasets/
+data/
+horses_full*
+.ipynb_checkpoints
+.vscode
+__pycache__
+venv
+*.ipynb
+.idea

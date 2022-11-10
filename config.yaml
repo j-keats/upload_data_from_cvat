@@ -1,0 +1,21 @@
+# url
+CVAT_URL: 'http://cvat-projecto.neuro-vision.tech/'
+
+# auth
+LOGIN: 'expasoft'
+PASS: 'Expasoftaccesspass'
+
+# tasks to download
+TASKS_IDS: '132,133,134,135'
+
+# final format of dataset
+EXPORT_FORMAT: 'coco'
+
+# path to save dataset
+SAVE_PATH: 'data/ocr'
+
+# Split dataset config. Split on train, val and test datasets.
+SPLIT_DATASET: 'train:0.9,val:0.1' # the sum of the shares must be equal to 1.0
+
+# Flag to on/off downloads and only build dataset and split it, if tasks are already downloaded
+ONLY_BUILD_DATASET: '1'
